@@ -68,7 +68,7 @@ body {
 /* ------------------------------------------------------- */
 .background {
 width: 100%;
-height: 800px;
+height: 1100px;
 perspective:800px;
 perspective-origin:0 50%;
 overflow: hidden;
@@ -96,30 +96,29 @@ background: rgb(8, 8, 14);
 	height: 200px;
 	background:url(../img/town_1.webp) 0 0 / auto 200px repeat-x;
  position: absolute;
- bottom:200px;
+ bottom:420px;
 }
 .background__water{
 	width: 100%;
-	height: 125px;
-	background: url(../img/water.webp) 0 0/ auto 100px repeat-x;
+	height: 265px;
+	background: url(../img/water.webp) 0 0/ auto 200px repeat-x;
 	position: absolute;
-	bottom: 110px;
+	bottom: 230px;
 }
 .background__road {
 	width: 150%;
-	height: 400px;
-	transform: translate(20%, 0);
-	background:  url(../img/road.webp)-0 0 / 200px 200px repeat-x;
-	transform: translate(0, 200px) rotatex(65deg);
+	height: 600px;
+	background:  url(../img/road.webp)-0 0 / 400px 400px repeat-x;
+	transform: translate(0, 0px) rotatex(65deg);
 	position: absolute;
-	bottom: 0px;
+	bottom: -200px;
 	z-index: 1;
 	
 }
 .car{
 	display: inline-block;
 	position: absolute;
-	top: 40px;
+	top: 140px;
 
 	}
 
