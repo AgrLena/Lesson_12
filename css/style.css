@@ -68,7 +68,7 @@ body {
 /* ------------------------------------------------------- */
 .background {
 width: 100%;
-height: 1100px;
+height: 1000px;
 perspective:800px;
 perspective-origin:0 50%;
 overflow: hidden;
@@ -78,7 +78,7 @@ background: rgb(8, 8, 14);
 .background__sky {
 	width: 100%;
 	height: 100%;
-	background: url(../img/sky.webp) 0 0 / 100% no-repeat;
+	background: url(../img/sky.webp) 0 0 / 100% 1000px no-repeat;
 	position: absolute;
 
 
@@ -87,7 +87,7 @@ background: rgb(8, 8, 14);
 	width: 100%;
 	height: 600px;
 	opacity: 0.2;
-	background: url(../img/cloud.webp) 0 0 / 100% no-repeat;
+	background: url(../img/cloud.webp) 0 0 / 100% 1000px no-repeat;
 	
 
 }
@@ -118,7 +118,7 @@ background: rgb(8, 8, 14);
 .car{
 	display: inline-block;
 	position: absolute;
-	top: 140px;
+	top: 60px;
 
 	}
 
